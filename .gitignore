@@ -1,0 +1,4 @@
+using_BM3D-VST/denoising_results/*png
+using_RicianNet/denoising_results/*png
+using_BM3D-VST/denoising_results/*npy
+using_RicianNet/denoising_results/*npy
