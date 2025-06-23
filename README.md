@@ -41,3 +41,32 @@ conda activate env_riciannet
 python denoise.py
 ```
 Its default behavior is to print out the quality metrics (PSNR, SSIM) per denoising experiment and the denoised images both in `.png` and in `.npy` in the `denoising_results/` directory. As explained in our paper, the quality metrics are evaluated exclusively only on the region of interest of each image.
+
+
+## Reproducing results with DRCNet 
+
+
+```
+cd using_DRCNet
+conda env create -f drcnet-env.yml
+```
+In order to launch the reproducibility code, activate the environment and launch the script:
+```
+conda activate drcnet-env
+python contaminate.py
+```
+Its default behavior is to print out denoised volumetric images to `../dataset/volumetric_denoised_brains`. The user may also choose to save the noisy brains. 
+
+## Reproducing results with ZS-N2N 
+
+
+```
+cd using_ZS-N2N
+conda env create -f ns-n2n-env.yaml
+```
+In order to launch the reproducibility code, activate the environment and launch the script:
+```
+conda activate ns-n2n-env
+python denoise.py
+```
+Its default behavior is to save the denoised volumetric images to the `../results/` folder. 
