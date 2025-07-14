@@ -1,3 +1,6 @@
+# Code taken from "MRI Rician Noise Reduction Using Recurrent Convolutional Neural Networks"
+# by JAVIER GURROLA-RAMOS, TERESA ALARCON, OSCAR DALMAU AND JOSÉ V. MANJÓN.
+
 import torch
 import torch.nn as nn
 from collections import OrderedDict
