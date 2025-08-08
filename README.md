@@ -4,6 +4,8 @@
 
 This repository stores the dependencies, code and datasets for harnessing the methods we compare **[RD-DIP](https://github.com/heqro/rd-dip) (Rician Denoising with Deep Image Prior)** against. 
 
+[![DOI](https://img.shields.io/badge/DOI-10.1016%2Fj.neucom.2025.131156-blue)](https://doi.org/10.1016/j.neucom.2025.131156)
+
 ## Get started 
 Simply clone the repository and initialize the `datasets` module:
 ```
