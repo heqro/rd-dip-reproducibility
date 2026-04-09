@@ -91,3 +91,12 @@ Its default behavior is to save the denoised volumetric images to the `../result
 
 
 * **Reproducibility and fairness**: Our full pipeline and run scripts are available in our public reproducibility repo ([link](https://github.com/heqro/rd-dip-reproducibility/blob/main/using_ZS-N2N)).
+
+
+## Reproducing results with Variational model
+
+```
+conda create --name variational python -y
+conda activate variational
+pip install numpy scipy scikit-image imageio
+```
